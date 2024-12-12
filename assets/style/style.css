@@ -417,8 +417,203 @@ main{
     font-weight: 100;
 }
 
+/* Reserve */
+
+.reserve{
+    padding-top: 113px;
+    padding-bottom: 39px;
+    background-color: rgba(255, 244, 231, 0.4);
+
+   
+}
+
+.reserve .container{
+    max-width: 1466px;
+    margin-right: 120px;
+}
+
+.reserve-left img{
+  margin-left: -162px;
+}
+
+.reserve-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
+.reserve-right{
+    margin-left: 103px;
+}
+
+.reserve-right h2{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 50px;
+    color: var(--black);
+}
+
+.reserve-right h2 span{
+  color: var(--orange);
+}
+
+.reserve-right p{
+    font-size: 20px;
+    line-height: 220%;
+    color: #5C4529;
+    margin-bottom: 132px;
+    
+}
+
+.reserve-right a{
+    padding: 17px 55px;
+    border-radius: 162px;
+    background-color: var(--orange);
+    color: #fff;
+    text-decoration: none;
+
+    transition: background-color .4s ease;
+}
+
+.reserve-right a:hover{
+    background-color: var(--green);
+}
+
+
+/* Chefs */
+
+.chefs{
+    padding-top: 175px;
+    padding-bottom: 271px;
+    text-align: center;
+}
+
+.chefs h2{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    font-weight: 700;
+
+    margin-bottom: 135px;
+    text-align: center;
+}
+
+.chefs-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+
+.chef-item{
+    text-align: center;
+}
+
+.chef-item h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.chef-item p{
+  color: #A08D76;
+  line-height: 200%;
+
+}
+
+.chefs-all{
+    background-color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    padding: 17px 78px;
+    transition: background-color .4s ease;
+
+    border-radius: 162px;
+}
+
+.chefs-all:hover{
+    background-color: var(--green);
+}
+
+/* Clients */
+
+.clients{
+    background-color: rgba(208, 204, 199, 0.1);
+    padding: 71px 0px 99px 0px;
+}
+
+.clients-inner{
+ background-image: url(../images/bg-clients.png);
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+ text-align: center;
+}
+
+.clients-title{
+    font-family: "Tinos", serif;
+    font-size: 80px;
+    line-height: 200%;
+    font-weight: 700;
+    margin-bottom: 57px;
+
+    color: var(--black);
+}
+
+.clients-about-img{
+    margin-bottom: 41px;
+}
+
+.clients-about-title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+
+    color: var(--black);
+}
+
+.clients-about-text{
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+    margin-bottom: 65px;
+
+}
+
+.clients-about-inner{
+    position: relative;
+    width: 524px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clients-about-inner p{
+  color: #5C4529;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+#dot1{
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    transform: rotate(180deg);
+}
+
+#dot2{
+    position: absolute;
+    bottom: -45px;
+    right: -45px;
+    
+}
 
 
 
